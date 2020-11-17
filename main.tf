@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "remote" {
-    organization = "nick-handy"
+    organization = "nick-handy-test"
 
     workspaces {
       name = "gh-actions-demo"
